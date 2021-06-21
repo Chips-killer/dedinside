@@ -1,3 +1,5 @@
+.header { background-image: url("../img/main-screen__bgc.png"); height: 960px; background-repeat: no-repeat; background-position: center; }
 
+body, html { font-family: 'Roboto', sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
