@@ -1,3 +1,4 @@
+$color: #FFFFFF;
 .header{
     background-image: url('../img/main-screen__bgc.png');
     height: 960px;
@@ -6,4 +7,48 @@
 }
 body,html{
     font-family: 'Roboto', sans-serif;
+}
+.hope{
+    height: 40px;
+    margin: 0 auto;
+    width: 1760px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    &-bar{
+        width: 745px;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        margin-left: 70px;
+        &-link{
+            text-decoration: none;
+            color: $color;
+            font-weight:400;
+            font-size: 16px;
+            line-height: 24px;
+            border-bottom: 2px solid transparent;
+            padding-bottom: 20px;
+            transition: 0.5s;
+        }
+        &-link:hover{
+            border-bottom: 2px solid $color;
+        }
+        &-link:focus{
+            border-bottom: 2px solid $color;
+        }
+        &-link:active{
+            border-bottom: 2px solid $color;
+        }
+    }
+    &-button{
+        background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+        border-radius: 50px;
+        width: 183px;
+        height: 44px;
+        border: 0;
+        color: $color;
+        font-weight: 400;
+        font-size: 16px;
+    }
 }
